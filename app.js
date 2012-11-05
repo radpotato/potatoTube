@@ -8,6 +8,7 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
+  , jsdom = require('jsdom')
   , url = require('url')
   , app = module.exports = express.createServer();
 
